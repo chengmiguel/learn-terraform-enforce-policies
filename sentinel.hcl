@@ -6,6 +6,10 @@
 #
 #}
 
+#policy "allowed-terraform-version" {
+#  enforcement_level = "advisory"
+#}
+
 policy "allowed-terraform-version" {
-  enforcement_level = "advisory"
+  enforcement_level = "hard-mandatory"
 }
